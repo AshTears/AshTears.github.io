@@ -11,12 +11,12 @@
 </head>
 <body>
     <div>
-		<nav>
-			<div>
+		<nav class="fixed-top">
+			<div class="d-flex justify-content-end">
 				<a href="#aboutMe">About</a>
-				<a href="#">Skills</a>
-				<a href="#">Portfolio</a>
-				<a href="#">Contact</a>
+				<a href="#skills">Skills</a>
+				<a href="#projects">Projects</a>
+				<a href="#contact">Contact</a>
 			</div>
 		</nav>
       <header> 		
@@ -27,7 +27,7 @@
 		  <section id=aboutMe>
 			<div class=row>
 				<div class="col-md-4 offset-md-1">
-					<h2>Always Learning</h2>
+					<h2 class="sectionHeading">Always Learning</h2>
 					<p>I received my first computer at age 17 and fell in love with programming when I compiled my first "Hello World" program in Python. 
 					Now, I'm furthering my education to learn new skills and keep up with the changing technology industry.</p>
 					<p>"If we make every attempt to increase our knowledge in order to use it for human good, it will make
@@ -35,18 +35,52 @@
 				</div>
 				<div class="col-md-5 offset-md-2">
 					<h3><strong>Based in Montreal</strong></h3>
-					<img src="images/head.png" alt="Ashika Shallow">
+					<img src="images/head.PNG" class="img-fluid" alt="Ashika Shallow">
 				</div>
 			</div>
 		  </section>
 		  <section id=skills>
-			<h2>Skills</h2>
+			<h2 class="sectionHeading">Programming Skills</h2>
+			<div class="row">
+				<p class="col-md-5">Full-Stack Developer believing in the power of web development. Experienced in all stages of front-end and back-end development.
+				Focused on server-side JavaScript and relational databases. However, I'm keen on exploring new languages and I always try to stay
+				updated.
+				</p>
+				<ul class="offset-md-1 col-md-6">
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JavaScript</li>
+					<li>React JS</li>
+					<li>Node JS</li>
+				</ul>
+			</div>
+			
 		  </section>
-		  <section id=portfolio>
-			<h2>Portfolio</h2>
+		  <section id="languages">
+			<h2 class="sectionHeading">Languages</h2>
+			<div>
+				<h3>English</h3>
+				<p>Native</p>
+			</div>
+			<div>
+				<h3>French</h3>
+				<p>Intermediate</p>
+			</div>
+		  </section>
+		  <section id=projects>
+			<h2 class="sectionHeading">Projects</h2>
+			<ul>
+				<li>The Simon Game</li>
+			</ul>
 		  </section>
 		  <section id=contact>
-			<h2>Contact Me</h2>
+			<h2 class="sectionHeading">Contact Me</h2>
+			<p>Email me at: <a href="mailto:slwashika@gmail.com">slwashika@gmail.com</a></p>
+			<p>Find me on:</p>
+			<ul>
+				<li><i class="fa fa-linkedin"></i></li>
+				<li><i class="fa fa-github"></i></li>
+			</ul>
 		  </section>
 	  </div>
   </div>
