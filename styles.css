@@ -3,6 +3,11 @@ body {
 	margin: 0;
 }
 
+.center {
+	text-align: center;
+	border-top:#4d0026 5px solid;
+	margin: 25px 0;
+}
 nav {
 	padding: 10px 50px;
 	background-color: #4d0026; 
@@ -39,6 +44,10 @@ header p {
 	font-weight: 500;
 }
 
+section {
+	margin-bottom: 25px;
+}
+
 .sectionHeading{
 	font-size: 2.5em;
 	color: #800040;
@@ -64,8 +73,24 @@ header p {
 
 #skills li {
 	list-style-type: none;
-	font-size: 2em;
 	display: inline;
 	text-align: center;
 	padding: 0.9em;
+}
+
+#skills img {
+	height: 110px;
+}
+
+.projectList {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-content: space-evenly;
+}
+.projectCard {
+	width: 250px;
+	text-align: center;
+}
+#projects img {
+	width: 200px;
 }
