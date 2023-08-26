@@ -8,6 +8,10 @@ body {
 	border-top:#4d0026 5px solid;
 	margin: 25px 0;
 }
+
+#projects h2, #skills h2, #contact h2 {
+	padding-top: 20px;
+}
 nav {
 	padding: 10px 50px;
 	background-color: #4d0026; 
@@ -66,7 +70,7 @@ section {
 
 #aboutMe img {
 	margin-top: 20px;
-	border-radius: 20%;
+	border-radius: 40%;
 }
 
 /* Skills Section */
@@ -82,15 +86,24 @@ section {
 	height: 110px;
 }
 
-.projectList {
+/* .projectList {
 	display: grid;
 	grid-template-columns: auto auto auto;
 	justify-content: space-evenly;
-}
+} */
 .projectCard {
 	width: 250px;
 	text-align: center;
 }
 #projects img {
 	width: 200px;
+	border-radius: 15%;
+}
+
+#contact {
+	border-top:#4d0026 5px solid;
+}
+
+#contact ul {
+	list-style-type: none;
 }
